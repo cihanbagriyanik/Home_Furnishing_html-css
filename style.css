@@ -595,3 +595,28 @@ input:focus{
     }
 
 }
+
+@media screen and (max-width:500px) {
+
+    .inputPart {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .searchInput {
+        width: 68%;
+
+    }
+
+    .icons{
+        margin-left: 1.3rem;
+    }
+
+    .formElement input {
+        width: 16rem;
+
+    } 
+
+}
