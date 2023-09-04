@@ -99,6 +99,7 @@ body {
 
 .supportText {
     font-size: 0.8rem;
+    text-align: justify;
 }
 
 .icons {
@@ -139,6 +140,7 @@ body {
 }
 
 .nav {
+    /* border: 1px solid #000; */
     margin-left: 1rem;
     font-size: 1.2rem;
     color: rgba(0, 0, 0, 0.7);
@@ -355,7 +357,8 @@ span{
     border-bottom: 1px solid black;   
     margin-bottom: 1rem; 
     padding: 1rem 0;
-    width: 38rem;
+
+    width: 100%;
 }
 
 input:focus{
@@ -393,7 +396,7 @@ input:focus{
     border-bottom: 1px solid black;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:850px) {
     .iconBar {
         /* border: 3px solid red; */
 
@@ -489,7 +492,6 @@ input:focus{
         border-bottom: 1px solid black;
         margin-bottom: 1rem;
         padding: 1rem 0;
-        width: 24rem;
     }
     
     input:focus {
@@ -575,10 +577,7 @@ input:focus{
         font-style: italic;
     }
 
-    .formElement input {
-        width: 20rem;
 
-    }
 
     .copyright {
         display: flex;
@@ -614,9 +613,5 @@ input:focus{
         margin-left: 1.3rem;
     }
 
-    .formElement input {
-        width: 16rem;
-
-    } 
 
 }
